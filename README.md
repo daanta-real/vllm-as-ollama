@@ -1,5 +1,7 @@
 # vLLM AS Ollama - for using in IntelliJ AI Assistant
 
+<img src="https://github.com/user-attachments/assets/97dfec6d-20e0-4354-b6bc-b3588de40ced" width="400">
+
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/)
 [![GitHub stars](https://img.shields.io/github/stars/daanta/vllm_as_ollama?style=social)](https://github.com/daanta/vllm_as_ollama/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/daanta/vllm_as_ollama?style=social)](https://github.com/daanta/vllm_as_ollama/network/members)
