@@ -8,7 +8,7 @@
 
 ## 🚀 개요 (Overview)
 
-vLLM을 Ollama로 SSH 터널을 통해 IntelliJ AI Assistant에서 안전하게 사용할 수 있게 해줌
+vLLM을 Ollama로 둔갑시켜 IntelliJ AI Assistant에서 안전하게 사용할 수 있게 해줌
 
 This project disguises vLLM as Ollama, making it safely usable within IntelliJ AI Assistant.
 
