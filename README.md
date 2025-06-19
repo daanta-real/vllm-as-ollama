@@ -34,7 +34,7 @@ This project disguises vLLM as Ollama, making it safely usable within IntelliJ A
 2. SSH 터널링을 통해, HTTP request/response를 SSH 방식으로 안전하게 송수신할 수 있도록 하였다.
 3. 상기 셋팅들을 통합하여 단일 Docker Compose로 구성, 셋팅과 재사용을 쉽고 빠르게 할 수 있도록 하였다.
 
-이 프로젝트는 IntelliJ가 해당 기능을 모두 지원할 때까지 계속해서 업데이트해 나갈 것이다.
+이 프로젝트는 IntelliJ가 해당 기능을 모두 지원하게 되어 이것이 필요 없어질 때까지 계속해서 업데이트해 나갈 것이다.
 
 ## ⚙ 아키텍처 구성 (Architecture Structure)
 
