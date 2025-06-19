@@ -1,0 +1,49 @@
+# PATH: /docker-compose.yml
+
+services:
+  # COMPOSE CONTAINER 1: VLLM SERVER
+  vllm_server:
+    container_name: vllm_server
+    build:
+      context: /vllm
+      dockerfile: Dockerfile
+      args:
+        # *************** MODIFY 1) MODEL NAME ***************
+        MODEL_NAME: "vLLM_model"
+    image: vllm_server_image
+    networks:
+      - vllm_network
+    ports:
+      - "8000:8000"
+    gpus: all
+    volumes:
+      # *************** MODIFY 1) MODEL LOCATION ***************
+      # read-only keyword must be attached at the end ( ... :ro )
+      # e.g. C:/models/Qwen2.5-Coder-14B-Instruct-AWQ:/model:ro
+      - C:/models/Qwen2.5-Coder-14B-Instruct-AWQ:/model:ro
+  # COMPOSE CONTAINER 2: VLLM-OLLAMA BRIDGE SERVER
+  vllm_ollama_bridge:
+    container_name: vllm_ollama_bridge
+    build:
+      context: ./vllm_ollama_bridge
+      dockerfile: Dockerfile
+    image: vllm_ollama_bridge_image
+    networks:
+      - vllm_network
+    ports:
+      - "11434:11434"
+  # COMPOSE CONTAINER 3: SSH-BASTION TUNNELING SERVER
+  ssh_bastion:
+    container_name: ssh_bastion
+    build:
+      context: ./ssh_bastion
+      dockerfile: Dockerfile
+    image: ssh_bastion_image
+    networks:
+      - vllm_network
+    ports:
+      - "50247:22"
+
+networks:
+  vllm_network:
+    name: vllm_network
