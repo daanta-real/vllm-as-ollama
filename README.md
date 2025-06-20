@@ -3,8 +3,8 @@
 <img src="https://github.com/user-attachments/assets/97dfec6d-20e0-4354-b6bc-b3588de40ced" width="400">
 
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/)
-[![GitHub stars](https://img.shields.io/github/stars/daanta-real/vllm_as_ollama?style=social)](https://github.com/daanta-real/vllm_as_ollama/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/daanta-real/vllm_as_ollama?style=social)](https://github.com/daanta-real/vllm_as_ollama/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/daanta-real/vllm-as-ollama?style=social)](https://github.com/daanta-real/vllm-as-ollama/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/daanta-real/vllm-as-ollama?style=social)](https://github.com/daanta-real/vllm-as-ollama/network/members)
 
 ## 🚀 개요 (Overview)
 
