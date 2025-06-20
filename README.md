@@ -3,8 +3,8 @@
 <img src="https://github.com/user-attachments/assets/97dfec6d-20e0-4354-b6bc-b3588de40ced" width="400">
 
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/)
-[![GitHub stars](https://img.shields.io/github/stars/daanta/vllm_as_ollama?style=social)](https://github.com/daanta/vllm_as_ollama/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/daanta/vllm_as_ollama?style=social)](https://github.com/daanta/vllm_as_ollama/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/daanta-real/vllm_as_ollama?style=social)](https://github.com/daanta-real/vllm_as_ollama/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/daanta-real/vllm_as_ollama?style=social)](https://github.com/daanta-real/vllm_as_ollama/network/members)
 
 ## 🚀 개요 (Overview)
 
@@ -178,7 +178,7 @@ graph TD
 
 ## 🤝 기여 (Contributing)
 
-[Issues](https://github.com/daanta/vllm-as-ollama/issues) 페이지에 가시면 버그 리포트, 기능 제안 등을 하실 수 있습니다.
+[Issues](https://github.com/daanta-real/vllm-as-ollama/issues) 페이지에 가시면 버그 리포트, 기능 제안 등을 하실 수 있습니다.
 
 근데 사실 딱딱한 글 싫어해요, 걍 https://github.com/god/earth/issues 이런 식으로 오늘의 일기나 야식 추천 뭐 그런 글이나 써주시면 감사해오.
 
