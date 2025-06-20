@@ -155,7 +155,7 @@ graph TD
 
    ```bash
    ▣▣▣       Windows CMD        ▣▣▣
-   start "" ssh -i "%USERPROFILE%\.ssh\vllm_service_user" -N -f -L 50247:vllm_ollama_bridge:11434 vllm_service_user@<server_address> -p 50247
+   start /B ssh -i "%USERPROFILE%\.ssh\vllm_service_user" -N -L 50247:vllm_ollama_bridge:11434 vllm_service_user@<server_address> -p 50247
    ▣▣▣    Windows Powershell    ▣▣▣
    ssh -i "$env:USERPROFILE\.ssh\vllm_service_user" -N -f -L 50247:vllm_ollama_bridge:11434 vllm_service_user@<server_address> -p 50247
    ▣▣▣ Linux / MacOS / Git Bash ▣▣▣
