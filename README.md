@@ -117,14 +117,14 @@ graph TD
     2. SSH 키 생성
     ※ 중간에 이것저것 뭐 물어 보면 다 걍 Enter 치면 알아서 됨.
     ▣▣▣       Windows CMD        ▣▣▣
-    ssh-keygen -t rsa -b 4096 -C "vllm_admin" -f "%USERPROFILE%\.ssh\vllm_admin"
-    ssh-keygen -t rsa -b 4096 -C "vllm_service_user" -f "%USERPROFILE%\.ssh\vllm_service_user"
+    ssh-keygen -t rsa -b 4096 -m PEM -C "vllm_admin" -f "%USERPROFILE%\.ssh\vllm_admin"
+    ssh-keygen -t rsa -b 4096 -m PEM -C "vllm_service_user" -f "%USERPROFILE%\.ssh\vllm_service_user"
     ▣▣▣    Windows Powershell    ▣▣▣
-    ssh-keygen -t rsa -b 4096 -C "vllm_admin" -f "$env:USERPROFILE\.ssh\vllm_admin"
-    ssh-keygen -t rsa -b 4096 -C "vllm_service_user" -f "$env:USERPROFILE\.ssh\vllm_service_user"
+    ssh-keygen -t rsa -b 4096 -m PEM -C "vllm_admin" -f "$env:USERPROFILE\.ssh\vllm_admin"
+    ssh-keygen -t rsa -b 4096 -m PEM -C "vllm_service_user" -f "$env:USERPROFILE\.ssh\vllm_service_user"
     ▣▣▣ Linux / MacOS / Git Bash ▣▣▣
-    ssh-keygen -t rsa -b 4096 -C "vllm_admin" -f ~/.ssh/vllm_admin
-    ssh-keygen -t rsa -b 4096 -C "vllm_service_user" -f ~/.ssh/vllm_service_user
+    ssh-keygen -t rsa -b 4096 -m PEM -C "vllm_admin" -f ~/.ssh/vllm_admin
+    ssh-keygen -t rsa -b 4096 -m PEM -C "vllm_service_user" -f ~/.ssh/vllm_service_user
     
     3. 생성에 성공했다면, vllm_admin, vllm_admin.pub, vllm_service_user, vllm_service_user.pub 4개 파일이 생성된다.
     이후, 이중에서 vllm_admin.pub, vllm_service_user.pub 두 개의 파일을 리포지토리 폴더 내에 있는 ssh_bastion 폴더로 복사한다.
