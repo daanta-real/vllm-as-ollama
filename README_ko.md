@@ -1,6 +1,6 @@
 # vLLM AS Ollama - IntelliJ AI Assistant에서 vLLM 쓰기
 
-[한국어 README](README_ko.md) | [English README](README.md)
+[🇰🇷 한국어 README](README_ko.md) | [🇰🇷 English README](README.md)
 
 <img src="https://github.com/user-attachments/assets/97dfec6d-20e0-4354-b6bc-b3588de40ced" width="400">
 
