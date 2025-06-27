@@ -12,10 +12,6 @@
 
 vLLM을 Ollama로 둔갑시켜 IntelliJ AI Assistant에서 안전하게 사용할 수 있게 해줌
 
-This project disguises vLLM as Ollama, making it safely usable within IntelliJ AI Assistant.
-
-<p>$\it{{\color{#DD6565}※ The\ following\ instructions\ are\ written\ in\ Korean\ only,\ so\ please\ read\ them\ using\ a\ translation\ tool.}}$</p>
-
 ## 💡 왜 필요한가요?
 
 현재 최신 버전의 IntelliJ AI Assistant에서는 사용자 지정 LLM 실행기를 연결시킬 수 있게 되어 있다.
